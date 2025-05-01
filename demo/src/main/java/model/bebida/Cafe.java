@@ -1,5 +1,4 @@
-package main.java.model.bebida;
-import model.bebida.Bebida;
+package model.bebida;
 
 public class Cafe implements Bebida {
 
