@@ -1,7 +1,7 @@
 package main.java.model.decorator;
 import model.bebida.Bebida;
 
-public abstract class BebidaDecorator {
+public abstract class BebidaDecorator implements Bebida {
     protected Bebida bebida;
 
     public BebidaDecorator(Bebida bebida) {
@@ -10,7 +10,7 @@ public abstract class BebidaDecorator {
 
 
 
-    public abstract int getPreco(int x);
+    public abstract double getPreco();
 
     public abstract void getDescricao();
 
