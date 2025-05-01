@@ -11,7 +11,7 @@ public class DecoratorLeite extends BebidaDecorator{
     }
 
     @Override
-    public double getPreco(double x) {
+    public double getPreco() {
         return Cafe.getPreco() +1.50;
     }
 

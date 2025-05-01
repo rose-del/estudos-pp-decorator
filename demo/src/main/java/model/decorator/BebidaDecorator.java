@@ -10,7 +10,7 @@ public abstract class BebidaDecorator implements Bebida {
 
 
 
-    public abstract double getPreco(double x);
+    public abstract double getPreco();
 
     public abstract void getDescricao();
 
