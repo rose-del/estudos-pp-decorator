@@ -1,15 +1,13 @@
-package main.java.model.bebida;
-import model.bebida.Bebida;
+package model.bebida;
+
 public class Cafe implements Bebida {
-
-
-
-    public static String getDescricao() {
+    @Override
+    public String getDescricao() {
         return "Café";
     }
 
-
-    public static double getPreco() {
+    @Override
+    public double getPreco() {
         return 5.00;
     }
 }
