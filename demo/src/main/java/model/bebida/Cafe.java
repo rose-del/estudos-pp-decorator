@@ -1,6 +1,8 @@
-package model.bebida;
+package main.java.model.bebida;
+import main.java.model.bebida.Bebida;
 
-public class Cafe implements Bebida {
+public class Cafe extends Bebida{
+
     @Override
     public String getDescricao() {
         return "Café";
