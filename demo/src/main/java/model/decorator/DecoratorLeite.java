@@ -1,7 +1,7 @@
 package main.java.model.decorator;
 
 import main.java.model.bebida.Cafe;
-import model.bebida.Bebida;
+import main.java.model.bebida.Bebida;
 
 public class DecoratorLeite extends BebidaDecorator{
 
@@ -12,13 +12,12 @@ public class DecoratorLeite extends BebidaDecorator{
 
     @Override
     public double getPreco() {
-        return Cafe.getPreco() +1.50;
+        return bebida.getPreco() +1.50;
     }
 
     @Override
-    public void getDescricao() {
-        Cafe.getDescricao();
-        System.out.print(" com leite");
+    public String getDescricao() {
+        return bebida.getDescricao()+" com leite";
 
     }
 }

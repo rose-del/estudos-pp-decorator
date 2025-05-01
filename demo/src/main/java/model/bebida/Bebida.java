@@ -1,6 +1,7 @@
-package model.bebida;
+package main.java.model.bebida;
 
-public interface Bebida {
-    public String getDescricao();
-    public double getPreco();
+public abstract class Bebida {
+
+    public abstract String getDescricao();
+    public abstract double getPreco();
 }
