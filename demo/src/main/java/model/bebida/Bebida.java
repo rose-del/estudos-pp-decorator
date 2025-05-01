@@ -1,4 +1,5 @@
 package model.bebida;
 
-public class Bebida {
+public interface Bebida {
+
 }
