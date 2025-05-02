@@ -8,8 +8,6 @@ public abstract class BebidaDecorator extends Bebida {
         this.bebida = bebida;
     }
 
-
-
     public abstract double getPreco();
 
     public abstract String getDescricao();

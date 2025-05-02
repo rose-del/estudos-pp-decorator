@@ -11,14 +11,10 @@ public class Chocolate extends BebidaDecorator {
 
     @Override
     public double getPreco() {
-        return 0;
+        return bebida.getPreco() + 2.00;
     }
 
     public String getDescricao(){
-        return "com Chocolate";
-    }
-
-    public double getExtra() {
-        return 2.00;
+        return bebida.getDescricao() + " com Chocolate";
     }
 }
